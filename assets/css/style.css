@@ -21,11 +21,20 @@ body {
 
 /*Header*/
 header {
-    background-color: gray;
+    background-color: black;
+    position:fixed;
+    Padding: 0 1rem;
+    width:100%;
+    box-shadow: 0 2px 2px black;
+    
+   
+
+    
 }
 
 h1 {
     font-family: 'Ysabeau Infant', sans-serif;
+    color: white;
 }
 
 /*Main*/
@@ -48,5 +57,7 @@ footer {
     height: 30vh;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 75%;
+        background-position: right;
+        width:100%;
+        
 }
