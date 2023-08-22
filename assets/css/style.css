@@ -19,21 +19,34 @@ body {
     /* Generic styles for project */
 }
 
+/*Header*/
 header {
-    background-color: beige;
+    background-color: gray;
 }
 
 h1 {
     font-family: 'Ysabeau Infant', sans-serif;
 }
 
-
+/*Main*/
 main {
     background-color: whitesmoke;
     flex: 1 0 auto;
     /* Main element surplus space to push footer down*/
 }
 
+/*Fooer*/
 footer {
     background-color: beige;
+}
+
+#home {
+    background-image: url('../images/backgroundpicture.webp')
+}
+
+.page-header {
+    height: 30vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 75%;
 }
