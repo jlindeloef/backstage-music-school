@@ -26,16 +26,31 @@ header {
     Padding: 0 1rem;
     width:100%;
     box-shadow: 0 2px 2px black;
-    
-   
-
-    
 }
 
-h1 {
-    font-family: 'Ysabeau Infant', sans-serif;
+Header a {
+    text-decoration: none;
     color: white;
 }
+h1 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+#home {
+    background-image: url('../images/backgroundpicture.webp')
+}
+
+.page-header {
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+
 
 /*Main*/
 main {
@@ -49,15 +64,5 @@ footer {
     background-color: beige;
 }
 
-#home {
-    background-image: url('../images/backgroundpicture.webp')
-}
 
-.page-header {
-    height: 30vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right;
-        width:100%;
-        
-}
+
