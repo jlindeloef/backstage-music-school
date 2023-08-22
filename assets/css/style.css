@@ -27,7 +27,9 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px black;
     display: flex;
+    text-align: center;
     justify-content: space-between;
+
     align-items: baseline;
 }
 
@@ -41,6 +43,10 @@ header {
 Header a {
     text-decoration: none;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    font-size: 17px;
 
 }
 
@@ -58,10 +64,15 @@ h1 {
 #menu {
     font-size: larger;
     list-style-type: none;
+    display: inline;
+
+
+
 }
 
-#menu> li {
+#menu>li {
     margin-bottom: 1em;
+    display: inline
 }
 
 .active {
