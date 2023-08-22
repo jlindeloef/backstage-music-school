@@ -28,11 +28,11 @@ header {
     box-shadow: 0 2px 2px black;
     display: flex;
     justify-content: space-between;
-    align-items: baseline:baseline: z-index: 99;
+    align-items: baseline;
 }
 
 .page-header {
-    height: 30vh;
+    height: 20vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -60,39 +60,13 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu> li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid white;
 }
-
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute: width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px black;
-    display: none;
-    top: 100%;
-}
-
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-    color: white;
-}
-
-
 
 /*Main*/
 main {
