@@ -22,36 +22,13 @@ body {
 /*Header*/
 header {
     background-color: black;
-    position:fixed;
+    position: fixed;
     Padding: 0 1rem;
-    width:100%;
+    width: 100%;
     box-shadow: 0 2px 2px black;
-}
-
-Header a {
-    text-decoration: none;
-    color: white;
-}
-h1 {
-    font-family: 'Ysabeau Infant', sans-serif;
-    text-transform: uppercase;
-    
-}
-
-#home {
-    background-image: url('../images/backgroundpicture.webp')
-}
-#menu {
-    font-size: larger;
-    list-style-type: none;
-}
-
-#menu> li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline:baseline: z-index: 99;
 }
 
 .page-header {
@@ -59,7 +36,60 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    width: 100%;
+}
+
+Header a {
+    text-decoration: none;
+    color: white;
+
+}
+
+h1 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+#home {
+    background-image: url('../images/backgroundpicture.webp')
+}
+
+#menu {
+    font-size: larger;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute: width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px black;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: white;
 }
 
 
@@ -69,12 +99,11 @@ main {
     background-color: whitesmoke;
     flex: 1 0 auto;
     /* Main element surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 /*Fooer*/
 footer {
     background-color: beige;
 }
-
-
-
