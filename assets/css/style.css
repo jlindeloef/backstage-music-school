@@ -41,6 +41,18 @@ h1 {
 #home {
     background-image: url('../images/backgroundpicture.webp')
 }
+#menu {
+    font-size: larger;
+    list-style-type: none;
+}
+
+#menu> li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid white ;
+}
 
 .page-header {
     height: 30vh;
